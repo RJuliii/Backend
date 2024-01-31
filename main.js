@@ -23,7 +23,7 @@ class ProductManager {
         thumbnail,
         code,
         stock
-      };
+      }
   
       this.products.push(newProduct)
       console.log(`Producto agregado correctamente. ID: ${newProduct.id}`)
